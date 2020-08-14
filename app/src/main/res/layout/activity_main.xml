@@ -7,12 +7,56 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:text="Hello World!"
+        android:textColor="@android:color/black"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintTop_toTopOf="@+id/tv1"
+        android:background="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="world"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintBottom_toBottomOf="@id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="hi"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
+        app:layout_constraintEnd_toStartOf="@+id/tv1"
+        android:background="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="bye"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="@+id/tv1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
