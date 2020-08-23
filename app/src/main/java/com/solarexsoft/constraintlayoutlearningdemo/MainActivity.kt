@@ -7,6 +7,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.`0center_to_edge`)
+        setContentView(R.layout.chains_5)
     }
 }
