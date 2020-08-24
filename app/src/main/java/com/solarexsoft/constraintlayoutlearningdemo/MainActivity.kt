@@ -17,9 +17,6 @@ class MainActivity : AppCompatActivity() {
             R.id.constraint -> {
                 Intent(this, ConstraintLayoutDemoActivity::class.java)
             }
-            R.id.transition -> {
-                Intent(this, TransitionDemoActivity::class.java)
-            }
             R.id.motion -> {
                 Intent(this, MotionLayoutDemoActivity::class.java)
             }
