@@ -19,7 +19,7 @@ import java.util.concurrent.locks.ReentrantLock
  * </pre>
  */
 
-class TransitionActivity : AppCompatActivity() {
+class TransitionDemoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.transition_14)

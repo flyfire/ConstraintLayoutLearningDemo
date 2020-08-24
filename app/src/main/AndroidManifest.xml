@@ -10,15 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".TransitionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TransitionDemoActivity"/>
+        <activity android:name=".ConstraintLayoutDemoActivity" />
+        <activity android:name=".constraint.Center" />
+        <activity android:name=".constraint.DimensionRules" />
+        <activity android:name=".constraint.GoneMargin" />
+        <activity android:name=".constraint.Bias" />
+        <activity android:name=".constraint.Chains" />
+        <activity android:name=".constraint.Weight" />
+        <activity android:name=".constraint.VirtualHelper" />
+        <activity android:name=".constraint.CustomVirtualHelper" />
+        <activity android:name=".constraint.ConstraintWidth" />
+        <activity android:name=".constraint.AspectRatio" />
+        <activity android:name=".constraint.Percent" />
+        <activity android:name=".constraint.CircularPosition" />
+        <activity android:name=".constraint.NegativeMargin" />
     </application>
 
 </manifest>
