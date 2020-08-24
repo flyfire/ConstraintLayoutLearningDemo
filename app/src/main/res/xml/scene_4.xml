@@ -33,7 +33,6 @@
                 motion:waveOffset="0"
                 motion:wavePeriod="0"
                 motion:waveShape="sin" />
-
         </KeyFrameSet>
 
     </Transition>

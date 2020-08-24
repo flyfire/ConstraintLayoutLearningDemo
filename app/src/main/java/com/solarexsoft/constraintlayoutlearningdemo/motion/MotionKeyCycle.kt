@@ -1,6 +1,7 @@
 package com.solarexsoft.constraintlayoutlearningdemo.motion
 
 import com.solarexsoft.constraintlayoutlearningdemo.BaseDemoActivity
+import com.solarexsoft.constraintlayoutlearningdemo.R
 
 /**
  * <pre>
@@ -11,5 +12,5 @@ import com.solarexsoft.constraintlayoutlearningdemo.BaseDemoActivity
  */
 
 class MotionKeyCycle : BaseDemoActivity() {
-    override fun layoutId(): Int = 0
+    override fun layoutId(): Int = R.layout.motion_keyframeset_keycycle_4
 }
