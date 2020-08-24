@@ -32,6 +32,13 @@
         <activity android:name=".constraint.CircularPosition" />
         <activity android:name=".constraint.NegativeMargin" />
         <activity android:name=".motion.MotionTransition" />
+        <activity android:name=".motion.MotionBasic" />
+        <activity android:name=".motion.MotionCoordinateLayout" />
+        <activity android:name=".motion.MotionCustomAttribute" />
+        <activity android:name=".motion.MotionKeyAttribute" />
+        <activity android:name=".motion.MotionKeyCycle" />
+        <activity android:name=".motion.MotionKeyPosition" />
+        <activity android:name=".motion.MotionYoutube" />
     </application>
 
 </manifest>

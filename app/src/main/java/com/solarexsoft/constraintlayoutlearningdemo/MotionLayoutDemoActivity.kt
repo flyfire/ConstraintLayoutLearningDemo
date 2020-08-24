@@ -3,7 +3,7 @@ package com.solarexsoft.constraintlayoutlearningdemo
 import android.content.Intent
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.solarexsoft.constraintlayoutlearningdemo.motion.MotionTransition
+import com.solarexsoft.constraintlayoutlearningdemo.motion.*
 
 /**
  * <pre>
@@ -18,6 +18,27 @@ class MotionLayoutDemoActivity: BaseDemoActivity() {
         val intent = when (view.id) {
             R.id.motion_transition -> {
                 Intent(this, MotionTransition::class.java)
+            }
+            R.id.motion_basic -> {
+                Intent(this, MotionBasic::class.java)
+            }
+            R.id.motion_custom_attribute -> {
+                Intent(this, MotionCustomAttribute::class.java)
+            }
+            R.id.motion_keyframeset_keyattribute -> {
+                Intent(this, MotionKeyAttribute::class.java)
+            }
+            R.id.motion_keyframeset_keyposition -> {
+                Intent(this, MotionKeyPosition::class.java)
+            }
+            R.id.motion_keyframeset_keycycle -> {
+                Intent(this, MotionKeyCycle::class.java)
+            }
+            R.id.motion_coordinatelayout -> {
+                Intent(this, MotionCoordinateLayout::class.java)
+            }
+            R.id.motion_youtube -> {
+                Intent(this, MotionYoutube::class.java)
             }
             else -> {
                 Intent()
