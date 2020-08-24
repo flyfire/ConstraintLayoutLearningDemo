@@ -1,5 +1,6 @@
 package com.solarexsoft.constraintlayoutlearningdemo.constraint
 
+import android.view.View
 import com.solarexsoft.constraintlayoutlearningdemo.BaseDemoActivity
 import com.solarexsoft.constraintlayoutlearningdemo.R
 
@@ -18,6 +19,10 @@ class DimensionRules : BaseDemoActivity() {
 }
 class GoneMargin: BaseDemoActivity() {
     override fun layoutId(): Int = R.layout.gone_margin_3
+
+    fun onClick(view: View) {
+        view.visibility = View.GONE
+    }
 }
 class Bias: BaseDemoActivity() {
     override fun layoutId(): Int = R.layout.bias_4
