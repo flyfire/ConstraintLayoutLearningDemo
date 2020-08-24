@@ -39,6 +39,7 @@
         <activity android:name=".motion.MotionKeyCycle" />
         <activity android:name=".motion.MotionKeyPosition" />
         <activity android:name=".motion.MotionYoutube" />
+        <activity android:name=".MotionLayoutDemoActivity" />
     </application>
 
 </manifest>

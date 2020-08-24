@@ -37,9 +37,6 @@ class MotionLayoutDemoActivity: BaseDemoActivity() {
             R.id.motion_coordinatelayout -> {
                 Intent(this, MotionCoordinateLayout::class.java)
             }
-            R.id.motion_youtube -> {
-                Intent(this, MotionYoutube::class.java)
-            }
             else -> {
                 Intent()
             }
