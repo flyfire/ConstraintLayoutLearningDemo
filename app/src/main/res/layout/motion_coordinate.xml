@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/credits"
                 android:textSize="24sp"
-                android:textColor="?colorOnPrimary" />
+                android:textColor="@android:color/holo_orange_light" />
         </androidx.constraintlayout.motion.widget.MotionLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
