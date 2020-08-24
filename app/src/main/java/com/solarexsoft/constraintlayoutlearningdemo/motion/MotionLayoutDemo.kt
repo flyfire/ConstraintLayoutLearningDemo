@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.movie_details_layout.*
  *    Desc:
  * </pre>
  */
-class MotionBasic: BaseDemoActivity() {
+class MotionTransition: BaseDemoActivity() {
     private val detailsSet = ConstraintSet()
     private val expandSet = ConstraintSet()
     private var isExpanded = false

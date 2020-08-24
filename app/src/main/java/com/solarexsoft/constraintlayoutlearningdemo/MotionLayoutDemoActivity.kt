@@ -1,6 +1,9 @@
 package com.solarexsoft.constraintlayoutlearningdemo
 
+import android.content.Intent
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.solarexsoft.constraintlayoutlearningdemo.motion.MotionTransition
 
 /**
  * <pre>
@@ -10,5 +13,16 @@ import androidx.appcompat.app.AppCompatActivity
  * </pre>
  */
 class MotionLayoutDemoActivity: BaseDemoActivity() {
-    override fun layoutId(): Int = 0
+    override fun layoutId(): Int = R.layout.activity_motion
+    fun onClick(view: View) {
+        val intent = when (view.id) {
+            R.id.motion_transition -> {
+                Intent(this, MotionTransition::class.java)
+            }
+            else -> {
+                Intent()
+            }
+        }
+        startActivity(intent)
+    }
 }

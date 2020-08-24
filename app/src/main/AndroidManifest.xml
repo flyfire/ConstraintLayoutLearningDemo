@@ -31,6 +31,7 @@
         <activity android:name=".constraint.Percent" />
         <activity android:name=".constraint.CircularPosition" />
         <activity android:name=".constraint.NegativeMargin" />
+        <activity android:name=".motion.MotionTransition" />
     </application>
 
 </manifest>
