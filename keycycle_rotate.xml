@@ -1,0 +1,51 @@
+<KeyFrameSet>
+
+<KeyCycle 
+        motion:framePosition="0"
+        motion:target="@+id/button"
+        motion:wavePeriod="0"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="20"/>
+
+<KeyCycle 
+        motion:framePosition="10"
+        motion:target="@+id/button"
+        motion:wavePeriod="6"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="20"/>
+
+<KeyCycle 
+        motion:framePosition="50"
+        motion:target="@+id/button"
+        motion:wavePeriod="0"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="0"/>
+
+<KeyCycle 
+        motion:framePosition="70"
+        motion:target="@+id/button"
+        motion:wavePeriod="3"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="20"/>
+
+<KeyCycle 
+        motion:framePosition="90"
+        motion:target="@+id/button"
+        motion:wavePeriod="0"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="0"/>
+
+<KeyCycle 
+        motion:framePosition="100"
+        motion:target="@+id/button"
+        motion:wavePeriod="0"
+        motion:waveOffset="0"
+        motion:waveShape="sin"
+        android:rotation="0"/>
+
+</KeyFrameSet>
