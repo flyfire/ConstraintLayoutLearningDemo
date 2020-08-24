@@ -1,0 +1,23 @@
+<KeyFrameSet>
+    <KeyCycle 
+            motion:framePosition="0"
+            motion:target="@+id/button"
+            motion:wavePeriod="0"
+            motion:waveOffset="1"
+            motion:waveShape="sin"
+            android:scaleX="0.3"/>
+    <KeyCycle 
+            motion:framePosition="18"
+            motion:target="@+id/button"
+            motion:wavePeriod="0"
+            motion:waveOffset="1"
+            motion:waveShape="sin"
+            android:scaleX="0.3"/>
+    <KeyCycle 
+            motion:framePosition="100"
+            motion:target="@+id/button"
+            motion:wavePeriod="3"
+            motion:waveOffset="1"
+            motion:waveShape="sin"
+            android:scaleX="0"/>
+</KeyFrameSet>
