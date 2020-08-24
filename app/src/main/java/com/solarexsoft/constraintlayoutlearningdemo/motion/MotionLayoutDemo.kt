@@ -43,4 +43,7 @@ class MotionTransition: BaseDemoActivity() {
         }
     }
 }
+class MotionSceneBasic0: BaseDemoActivity() {
+    override fun layoutId(): Int = R.layout.motion_basic_0
+}
  
