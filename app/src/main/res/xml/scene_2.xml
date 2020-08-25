@@ -6,16 +6,23 @@
         motion:constraintSetStart="@+id/start"
         motion:constraintSetEnd="@+id/end"
         motion:duration="1000"
-        motion:motionInterpolator="linear">
+        motion:motionInterpolator="bounce">
         <OnSwipe
             motion:dragDirection="dragRight"
             motion:touchAnchorId="@id/button"
-            motion:touchAnchorSide="right"/>
+            motion:touchAnchorSide="right" />
         <KeyFrameSet>
             <KeyPosition
                 motion:keyPositionType="parentRelative"
                 motion:percentY="0.25"
+                motion:percentX="0.8"
                 motion:framePosition="50"
+                motion:motionTarget="@id/button"/>
+            <KeyPosition
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.2"
+                motion:percentX="0.4"
+                motion:framePosition="75"
                 motion:motionTarget="@id/button"/>
         </KeyFrameSet>
 

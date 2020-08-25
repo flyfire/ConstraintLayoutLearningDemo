@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="centerCrop"
         android:background="@color/colorAccent"
-        app:layout_constraintHorizontal_chainStyle="packed" />
+        app:layout_constraintHorizontal_chainStyle="spread" />
     <View
         android:id="@+id/iv2"
         android:layout_width="100dp"

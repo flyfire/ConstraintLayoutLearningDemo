@@ -8,8 +8,7 @@
         motion:duration="1000">
         <OnSwipe
             motion:touchAnchorId="@+id/button"
-            motion:touchAnchorSide="right"
-            motion:dragDirection="dragRight" />
+            motion:dragDirection="dragLeft" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
