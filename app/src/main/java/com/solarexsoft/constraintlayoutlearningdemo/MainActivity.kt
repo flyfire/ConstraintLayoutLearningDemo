@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             R.id.motion -> {
                 Intent(this, MotionLayoutDemoActivity::class.java)
             }
+            R.id.test -> {
+                Intent(this, TestDemoActivity::class.java)
+            }
             else -> {
                 Intent()
             }

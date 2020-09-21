@@ -38,8 +38,10 @@
         <activity android:name=".motion.MotionKeyAttribute" />
         <activity android:name=".motion.MotionKeyCycle" />
         <activity android:name=".motion.MotionKeyPosition" />
-        <activity android:name=".motion.MotionYoutube" />
         <activity android:name=".MotionLayoutDemoActivity" />
+        <activity android:name=".test.FullScreenTranslateActivity" />
+        <activity android:name=".TestDemoActivity" />
+        <activity android:name=".test.FullScreenConstraintLayoutTranslateActivity" />
     </application>
 
 </manifest>
